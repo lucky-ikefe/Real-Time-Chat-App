@@ -30,7 +30,7 @@ The Real-time Chat App is a simple web application that allows users to connect 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:lucky-ikefe/Real-Time-Chat-App.git
 2. Install the required packages for the server:
     ```bash
     npm install ws
