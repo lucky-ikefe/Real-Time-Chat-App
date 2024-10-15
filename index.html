@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="modal-overlay">
+        <div id="modal-box">
+            <p>What is your name:</p>
+            <input type="text" id="username-input">
+            <button class="close-btn" id="close-modal">Enter</button>
+        </div>
+    </div>
+    <div id="chat-container">
+        <header style="white-space: pre;">Username: <div class="p" id="username"></div></header>
+        <div id="chat-window">
+            <ul id="messages"></ul>
+        </div>
+        <input id="message" type="text" placeholder="Type a message" autocomplete="off" />
+        <button id="send-btn">Send</button>
+    </div>
+    <script src="./dist/app.js" type="module"></script>
+</body>
+</html>
